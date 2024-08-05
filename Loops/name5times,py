@@ -1,12 +1,2 @@
-name="ore"
-name=int(name)
-
-for i in range("ore","ore",5):
-    print (i)
-
-
-print("ore")
-print("ore")
-print("ore")
-print("ore")
-print("ore")
+for ore in range(5):
+    print ("ore")
