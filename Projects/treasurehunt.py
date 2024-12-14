@@ -23,10 +23,10 @@ while True:
 
     count=count + 1
 
-    distance= round(math.sqrt((x_user_guess-x_coordinate)**2 + (y_user_guess-y_coordinate)**2))
+    distance= round(math.sqrt((x_user_guess-x_coordinate)**2 + (y_user_guess-y_coordinate)**2),2)
 
     if count==5:
-        print("You've used up all your guesses :( Better luck next time!" "The coordinates where", x_coordinate,"," ,y_coordinate)
+        print("You've used up all your guesses :( Better luck next time!" "The coordinates was", x_coordinate,"," ,y_coordinate)
         break
     
     if distance ==0:
