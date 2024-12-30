@@ -5,5 +5,4 @@ def factor (number):
             total=total+i
     return(total)
 
-
 print(factor(9))
