@@ -8,7 +8,7 @@ def range_of_num (start,end):
 range_of_num(5, 9) #➞ [6, 7, 8] 
  
 
-def list_less_than(number):
+def list_less_than_100(number):
     total=0
     for i in range (len(number)):
         total=total+number[i]
@@ -18,5 +18,5 @@ def list_less_than(number):
     else:
         print(False)
 
-list_less_than([1,2,3,4,5,6,7])
-list_less_than([95,10,12])
+list_less_than_100([1,2,3,4,5,6,7])
+list_less_than_100([95,10,12])
